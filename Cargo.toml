@@ -11,6 +11,9 @@ keywords = ["gamedev", "math", "matrix", "vector", "quaternion"]
 categories = ["game-engines", "no-std"]
 rust-version = "1.68.2"
 
+[lib]
+crate-type = ["lib", "dylib"]
+
 [badges]
 maintenance = { status = "actively-developed" }
 
